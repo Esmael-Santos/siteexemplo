@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  min-height: 200px;
+}
+
+.containerLogoFooter {
+  display: flex;
+  padding: 0 50px;
+  align-items: center;
+  min-height: 100%;
+}
+
+.subFooter {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lala {
+  width: 20%;
+}
+
+.svg-logo {
+  margin-top: 10px;
+  width: 250px;
+  height: 50px;
+  display: block;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.another-svg {
+  margin: 0 10px;
+  width: 100px;x
+  cursor: pointer;
+}
+
+.svg-1:hover > path {
+  fill: rgb(59, 89, 152);
+  transition: 0.6s;
+}
+
+.svg-2:hover > .path-test {
+  fill: url(#ir);
+}
+
+#path-test:hover {
+  transition: 1s;
+  transition: steps();
+}
+
+.svg-3:hover > path {
+  fill: rgb(37, 211, 102);
+  transition: 0.6s;
+}
+
+.svg-4:hover > #gmail,
+#chat-bubble {
+  fill: rgb(212, 70, 56);
+  transition: 0.6s;
+}
+
+.svg-1, .svg-2, .svg-3, .svg-4 {
+  fill: #DDDEDF;
+}
